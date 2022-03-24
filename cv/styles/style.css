@@ -1,0 +1,47 @@
+body
+{
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 500px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+h1
+{
+    color: rgb(38, 98, 152);
+    position: relative;
+    text-align: center;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+}
+.container .imgBx
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.container .left_rect
+{
+    position: relative;
+    background: rgb(38, 98, 152);
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 350px;
+}
