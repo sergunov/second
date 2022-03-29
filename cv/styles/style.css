@@ -1,3 +1,10 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body
 {
     background: lightgrey;
@@ -11,37 +18,91 @@ body
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 500px;
+    min-height: 1200px;
+    margin: 50px;
     background: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+.container .left_side
+{
+    position: relative;
+    padding: 40px;
 }
 h1
 {
     color: rgb(38, 98, 152);
     position: relative;
-    text-align: center;
+    padding: 30px;
 }
-img
+.imgBx img
 {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 .container .imgBx
 {
     position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    text-align: center;
     overflow: hidden;
     object-fit: cover;
 }
 .container .left_rect
 {
-    position: relative;
+    position: absolute;
     background: rgb(38, 98, 152);
     top: 0;
     left: 0;
     height: 40px;
     width: 350px;
+}
+h2
+{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    color: rgb(38, 98, 152);
+    padding-top: 40px;
+    border-bottom: 1px solid rgb(38, 98, 152);
+}
+.profile_text .text_contact p
+{
+    margin-top: 0.5em;
+    margin-bottom: 1em; 
+    padding-top: 5px;
+}
+.profile_text .text_languages p
+{
+    margin-top: 5px;
+}
+.container .right_side
+{
+    position: relative;
+    padding: 40px;
+}
+.skill_highlights .sides_skills
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+.Experience p
+{
+    margin-top: 5px;
+}
+.experience li
+{
+    margin-left: 35px;
+}
+.container .right_side .right_rect
+{
+    position: absolute;
+    background: rgb(38, 98, 152);
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 650px;
 }
